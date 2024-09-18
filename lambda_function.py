@@ -6,4 +6,5 @@ def lambda_handler(event,context):
     print('My public ip is: {}'.format(ip))
     print('Version 1')
     print('Version 2')
+    print('Version 3')
     return 'My Public IP is:' + ip
